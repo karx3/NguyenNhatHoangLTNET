@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MdiQuanLyApp/1.0.0": {
+        "runtime": {
+          "MdiQuanLyApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MdiQuanLyApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
