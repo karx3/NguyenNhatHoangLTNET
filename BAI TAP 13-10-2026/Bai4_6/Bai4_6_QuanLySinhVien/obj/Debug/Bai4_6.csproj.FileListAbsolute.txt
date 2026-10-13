@@ -1,0 +1,16 @@
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\bin\Debug\Bai4_6.exe
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\bin\Debug\Bai4_6.pdb
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.csproj.AssemblyReference.cache
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.csproj.CoreCompileInputs.cache
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.exe
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.pdb
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.Form1.resources
+D:\Bai4_6_QuanLySinhVien_SLNX\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.csproj.GenerateResource.cache
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\bin\Debug\Bai4_6.exe
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\bin\Debug\Bai4_6.pdb
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.csproj.AssemblyReference.cache
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.Form1.resources
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.csproj.GenerateResource.cache
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.csproj.CoreCompileInputs.cache
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.exe
+D:\.net\Bai4_6\Bai4_6_QuanLySinhVien\obj\Debug\Bai4_6.pdb

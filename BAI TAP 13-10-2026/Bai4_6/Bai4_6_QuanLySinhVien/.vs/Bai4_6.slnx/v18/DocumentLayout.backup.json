@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|d:\\gitclone\\lap trinh -net\\bai tap 13-10-2026\\bai4_6\\bai4_6_quanlysinhvien\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D79C66E5-6D4A-4A74-A2D2-4C64D7A4B5E1}|Bai4_6.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAcwD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:47:57.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:47:37.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:46:42.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:46:40.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\GitClone\\LAP TRINH -NET\\BAI TAP 13-10-2026\\Bai4_6\\Bai4_6_QuanLySinhVien\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Bai4_6_QuanLySinhVien_SLNX\\Bai4_6_QuanLySinhVien\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Bai4_6_QuanLySinhVien_SLNX\\Bai4_6_QuanLySinhVien\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T06:46:37.635Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
