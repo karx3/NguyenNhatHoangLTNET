@@ -1,0 +1,15 @@
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\bin\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.exe
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\bin\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.deps.json
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\bin\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.runtimeconfig.json
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\bin\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.dll
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\bin\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.pdb
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.AssemblyInfoInputs.cache
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.AssemblyInfo.cs
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.csproj.CoreCompileInputs.cache
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.dll
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\refint\Bai1_ClinicAppointmentManager.dll
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.pdb
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_ClinicAppointmentManager.genruntimeconfig.cache
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\ref\Bai1_ClinicAppointmentManager.dll
+D:\.net\Bai4_9\Bai1_ClinicAppointmentManager\obj\Debug\net8.0-windows\Bai1_Cli.C3F521FA.Up2Date
