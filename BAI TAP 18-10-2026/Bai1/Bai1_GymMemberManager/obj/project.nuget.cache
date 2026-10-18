@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PISZM6z5v2I=",
+  "success": true,
+  "projectFilePath": "D:\\.net\\Bai1\\Bai1_GymMemberManager\\Bai1_GymMemberManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaze\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\kaze\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\kaze\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\kaze\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

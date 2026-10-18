@@ -1,0 +1,15 @@
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.AssemblyInfoInputs.cache
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.AssemblyInfo.cs
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.csproj.CoreCompileInputs.cache
+D:\.net\Bai4\Bai4_RevenueAnalytics\bin\Debug\net8.0-windows\Bai4_RevenueAnalytics.exe
+D:\.net\Bai4\Bai4_RevenueAnalytics\bin\Debug\net8.0-windows\Bai4_RevenueAnalytics.deps.json
+D:\.net\Bai4\Bai4_RevenueAnalytics\bin\Debug\net8.0-windows\Bai4_RevenueAnalytics.runtimeconfig.json
+D:\.net\Bai4\Bai4_RevenueAnalytics\bin\Debug\net8.0-windows\Bai4_RevenueAnalytics.dll
+D:\.net\Bai4\Bai4_RevenueAnalytics\bin\Debug\net8.0-windows\Bai4_RevenueAnalytics.pdb
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.dll
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\refint\Bai4_RevenueAnalytics.dll
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.pdb
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_RevenueAnalytics.genruntimeconfig.cache
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\ref\Bai4_RevenueAnalytics.dll
+D:\.net\Bai4\Bai4_RevenueAnalytics\obj\Debug\net8.0-windows\Bai4_Rev.86756D73.Up2Date
