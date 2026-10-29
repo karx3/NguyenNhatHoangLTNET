@@ -1,0 +1,15 @@
+namespace InventoryManagement.DTO
+{
+    public class VatTuDTO
+    {
+        public string MaVatTu { get; set; }
+        public string TenVatTu { get; set; }
+        public string DVT { get; set; }
+        public decimal SoLuongTon { get; set; }
+
+        public string HienThi
+        {
+            get { return MaVatTu + " - " + TenVatTu + " (Tồn: " + SoLuongTon.ToString("N2") + " " + DVT + ")"; }
+        }
+    }
+}

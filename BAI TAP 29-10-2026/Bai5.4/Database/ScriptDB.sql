@@ -1,0 +1,64 @@
+CREATE DATABASE IF NOT EXISTS HotelDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE HotelDB;
+
+CREATE TABLE IF NOT EXISTS Phong (
+    SoPhong VARCHAR(10) PRIMARY KEY,
+    LoaiPhong VARCHAR(50) NOT NULL,
+    GiaTheoGio DECIMAL(18,2) NOT NULL DEFAULT 0,
+    TrangThai VARCHAR(30) NOT NULL DEFAULT 'Trống'
+);
+
+CREATE TABLE IF NOT EXISTS KhachHang (
+    MaKH INT AUTO_INCREMENT PRIMARY KEY,
+    HoTen VARCHAR(100) NOT NULL,
+    CCCD VARCHAR(20) NOT NULL UNIQUE,
+    SoDienThoai VARCHAR(15) NULL
+);
+
+CREATE TABLE IF NOT EXISTS DichVu (
+    MaDV INT AUTO_INCREMENT PRIMARY KEY,
+    TenDV VARCHAR(100) NOT NULL,
+    DonGia DECIMAL(18,2) NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS PhieuDatPhong (
+    MaPhieu INT AUTO_INCREMENT PRIMARY KEY,
+    SoPhong VARCHAR(10) NOT NULL,
+    MaKH INT NOT NULL,
+    NgayNhanPhong DATETIME NOT NULL,
+    NgayTraPhong DATETIME NULL,
+    TongTienThanhToan DECIMAL(18,2) NOT NULL DEFAULT 0,
+    CONSTRAINT FK_Phieu_Phong FOREIGN KEY (SoPhong) REFERENCES Phong(SoPhong),
+    CONSTRAINT FK_Phieu_KhachHang FOREIGN KEY (MaKH) REFERENCES KhachHang(MaKH)
+);
+
+CREATE TABLE IF NOT EXISTS SuDungDichVu (
+    MaSD INT AUTO_INCREMENT PRIMARY KEY,
+    MaPhieu INT NOT NULL,
+    MaDV INT NOT NULL,
+    SoLuong INT NOT NULL,
+    ThoiGian DATETIME NOT NULL,
+    CONSTRAINT FK_SD_Phieu FOREIGN KEY (MaPhieu) REFERENCES PhieuDatPhong(MaPhieu),
+    CONSTRAINT FK_SD_DichVu FOREIGN KEY (MaDV) REFERENCES DichVu(MaDV)
+);
+
+INSERT INTO Phong (SoPhong, LoaiPhong, GiaTheoGio, TrangThai) VALUES
+('P101', 'Đơn', 80000, 'Trống'),
+('P102', 'Đơn', 80000, 'Trống'),
+('P103', 'Đơn', 80000, 'Trống'),
+('P201', 'Đôi', 120000, 'Trống'),
+('P202', 'Đôi', 120000, 'Trống'),
+('P203', 'Đôi', 120000, 'Đang dọn dẹp'),
+('P301', 'VIP', 250000, 'Trống'),
+('P302', 'VIP', 250000, 'Trống');
+
+INSERT INTO KhachHang (HoTen, CCCD, SoDienThoai) VALUES
+('Nguyễn Văn An', '001203004567', '0901234567'),
+('Trần Thị Bình', '001204008899', '0912345678');
+
+INSERT INTO DichVu (TenDV, DonGia) VALUES
+('Nước suối', 10000),
+('Nước ngọt', 15000),
+('Giặt là (bộ)', 50000),
+('Đồ ăn sáng', 70000),
+('Mì ly', 20000);
