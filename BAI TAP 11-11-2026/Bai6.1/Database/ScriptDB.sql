@@ -1,0 +1,84 @@
+CREATE DATABASE IF NOT EXISTS SalesDB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE SalesDB;
+
+CREATE TABLE IF NOT EXISTS NhanVien (
+    MaNV INT AUTO_INCREMENT PRIMARY KEY,
+    TenNV VARCHAR(100) NOT NULL,
+    SoDienThoai VARCHAR(15) NULL UNIQUE,
+    ChucVu VARCHAR(50) NULL
+);
+
+CREATE TABLE IF NOT EXISTS KhachHang (
+    MaKH INT AUTO_INCREMENT PRIMARY KEY,
+    TenKH VARCHAR(100) NOT NULL,
+    DienThoai VARCHAR(15) NULL UNIQUE,
+    DiemTichLuy INT NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS SanPham (
+    MaSP VARCHAR(20) PRIMARY KEY,
+    TenSP VARCHAR(150) NOT NULL,
+    GiaBan DECIMAL(18,2) NOT NULL,
+    SoLuongTon INT NOT NULL DEFAULT 0,
+    CONSTRAINT CK_SanPham_Gia CHECK (GiaBan > 0),
+    CONSTRAINT CK_SanPham_Ton CHECK (SoLuongTon >= 0)
+);
+
+CREATE TABLE IF NOT EXISTS HoaDon (
+    MaHD INT AUTO_INCREMENT PRIMARY KEY,
+    NgayLap DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    MaNV INT NOT NULL,
+    MaKH INT NULL,
+    TongTien DECIMAL(18,2) NOT NULL DEFAULT 0,
+    CONSTRAINT FK_HoaDon_NhanVien FOREIGN KEY (MaNV) REFERENCES NhanVien(MaNV),
+    CONSTRAINT FK_HoaDon_KhachHang FOREIGN KEY (MaKH) REFERENCES KhachHang(MaKH)
+);
+
+CREATE TABLE IF NOT EXISTS ChiTietHoaDon (
+    MaHD INT NOT NULL,
+    MaSP VARCHAR(20) NOT NULL,
+    SoLuong INT NOT NULL,
+    DonGia DECIMAL(18,2) NOT NULL,
+    PRIMARY KEY (MaHD, MaSP),
+    CONSTRAINT CK_CT_SoLuong CHECK (SoLuong > 0),
+    CONSTRAINT FK_CT_HoaDon FOREIGN KEY (MaHD) REFERENCES HoaDon(MaHD),
+    CONSTRAINT FK_CT_SanPham FOREIGN KEY (MaSP) REFERENCES SanPham(MaSP)
+);
+
+INSERT INTO NhanVien (TenNV, SoDienThoai, ChucVu) VALUES
+('Phạm Thu Hà', '0901000001', 'Thu ngân'),
+('Đỗ Quang Huy', '0901000002', 'Thu ngân'),
+('Nguyễn Văn Quản', '0901000003', 'Quản lý');
+
+INSERT INTO KhachHang (TenKH, DienThoai, DiemTichLuy) VALUES
+('Nguyễn Thị Lan', '0912000001', 2),
+('Trần Văn Hùng', '0912000002', 1),
+('Lê Minh Châu', '0912000003', 0);
+
+INSERT INTO SanPham (MaSP, TenSP, GiaBan, SoLuongTon) VALUES
+('SP001', 'Mì gói Hảo Hảo', 4500, 200),
+('SP002', 'Nước suối Aquafina 500ml', 5000, 150),
+('SP003', 'Sữa tươi Vinamilk 1L', 32000, 80),
+('SP004', 'Bánh Oreo', 12000, 100),
+('SP005', 'Dầu ăn Simply 1L', 55000, 40),
+('SP006', 'Gạo ST25 túi 5kg', 135000, 25),
+('SP007', 'Nước ngọt Coca-Cola 330ml', 10000, 120),
+('SP008', 'Xà phòng Lifebuoy', 18000, 60),
+('SP009', 'Kem đánh răng P/S', 28000, 50),
+('SP010', 'Trứng gà (vỉ 10 quả)', 38000, 30);
+
+INSERT INTO HoaDon (MaHD, NgayLap, MaNV, MaKH, TongTien) VALUES
+(1, NOW(), 1, 1, 244000),
+(2, NOW(), 2, NULL, 79000),
+(3, DATE_SUB(NOW(), INTERVAL 1 DAY), 1, 2, 194500);
+
+INSERT INTO ChiTietHoaDon (MaHD, MaSP, SoLuong, DonGia) VALUES
+(1, 'SP001', 10, 4500),
+(1, 'SP003', 2, 32000),
+(1, 'SP006', 1, 135000),
+(2, 'SP002', 5, 5000),
+(2, 'SP007', 3, 10000),
+(2, 'SP004', 2, 12000),
+(3, 'SP003', 3, 32000),
+(3, 'SP010', 2, 38000),
+(3, 'SP001', 5, 4500);
